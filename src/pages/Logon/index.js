@@ -7,11 +7,11 @@ import { FiLogIn } from 'react-icons/fi';
 import heroesImg from '../../assets/heroes.png'
 import logo from '../../assets/logo.svg';
 export default function Logon() {
-    const histtory = useHistory();
+    const history = useHistory();
 
     const [id, setId] = useState('');
 
-    async function handleLogin() {
+    async function handleLogin(e) {
         e.preventDefault();
 
         try {
