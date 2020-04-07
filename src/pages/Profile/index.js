@@ -54,7 +54,7 @@ export default function Profile() {
       <h1>Casos cadastrados</h1>
       <ul>
         {/* Codigo que vai ser usuado depois que a api estiver funcionando */}
-        {
+        {/* {
           incidents.map(incident => (
             <li key={incident.id}>
               <strong>CASO:</strong>
@@ -76,7 +76,7 @@ export default function Profile() {
             </li>
 
           ))
-        }
+        } */}
         <li>
           <strong>CASO:</strong>
           <p>Caso Teste</p>
